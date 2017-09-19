@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BbitResource</string>
+    <string name="Firstname">First name</string>
+    <string name="Lastname">Last name</string>
+    <string name="Email">Email address</string>
+    <string name="Phonenumber">Phone number</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_main_signup">MainSignup</string>
+    <string name="title_activity_main_home">MainHome</string>
+</resources>

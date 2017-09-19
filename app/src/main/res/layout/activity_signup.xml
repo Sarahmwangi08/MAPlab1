@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <EditText
+        android:id="@+id/Firstname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Firstname"
+
+        />
+
+    <EditText
+        android:id="@+id/Lastname1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Lastname"
+        />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+
+        />
+    <EditText
+        android:id="@+id/Phonenumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Phonenumber"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+
+        />
+    <Button
+        android:id="@+id/create1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Create Account"
+        />
+
+
+
+
+</LinearLayout>
+
+
